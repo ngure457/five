@@ -1,0 +1,97 @@
+
+           body{
+            background-color: bisque;
+            font-family: inherit;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: azure;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+
+        }
+        nav ul li{
+            margin:0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: bold;
+            color:blue;
+            padding: 15px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover {
+            background-color: black;
+            color: lightcyan;
+        }
+            /*div{*/
+            /*    background-color:greenyellow;*/
+            /*    height: 100px;*/
+            /*    border-radius: 1px;*/
+            /*    padding:10px 10px;*/
+
+
+
+            .one{
+                background-color: lightcyan;
+                height: 50px;
+                color: red;
+                border-radius: 50px;
+            }
+            .two{
+                background-color:sienna ;
+                height: 50px;
+                color: green;
+                border-radius: 50px;
+            }
+            .three {
+                background-color: rosybrown;
+                height: 50px;
+                color: maroon;
+                border-radius: 50px;
+            }
+            #four{
+                 background-color: grey;
+                height: 50px;
+                color: blanchedalmond;
+                border-radius: 60px;
+            }
+            #five{
+                background-color: peru;
+                height: 50px;
+                color:palegreen ;
+                border-radius: 50px;
+
+            }
+
+.background-image{
+            background-image:url("https://cdn.pixabay.com/photo/2024/06/22/14/45/ai-generated-8846456_640.png");
+            background-size: cover;
+            background-position: center;
+            height: 550px;
+            border-radius: 20px;
+            margin: 20px;}
+.content{
+    background-image:url("https://cdn.pixabay.com/photo/2014/12/10/20/48/laboratory-563423_640.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 700px;
+    border-radius: 25px;
+    color:black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position: inside;
+}
+
